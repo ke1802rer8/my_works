@@ -1,0 +1,151 @@
+.header{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    
+}
+
+.header__container{
+   
+    display: flex;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    justify-content: space-between; 
+    
+    img{
+        max-width: 23.1rem;
+        width: 100%;
+        height: auto;
+    }
+}
+.header__basket{
+    z-index: 100;
+    width: 100%;
+}
+.header__container-basket{
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 8rem;
+    /* margin-top: 8rem; */
+    /* margin-bottom: 5rem; */
+    justify-content: space-between;
+}
+
+.header__img{
+    padding-right: 7rem;
+}
+
+.header-contacts, .header-position{
+    display: grid;
+    justify-items: end;
+    
+}
+.header-contacts{
+    line-height: 1.5;
+}
+
+.header-position{
+    line-height: 1.9;
+}
+
+.header-contacts__link{
+    color: $white;
+
+    font-size: 1.8rem;
+    font-weight: 600;
+
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.header-contacts__feedback, .header-position__city{
+    
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: inherit;
+
+    
+   
+}
+.header-contacts__feedback{
+    color: $orange;
+
+    transform: color .2s linear;
+
+    &:hover{
+        color:  #ffb923;
+    }
+}
+
+.header-position__city{
+    color: $white;
+    text-decoration: none;
+
+    transform: text-decoration .2s linear;
+
+    &:hover{
+        text-decoration: underline;
+    }
+
+}
+
+.header-position__time{
+    color: rgba($white, 0.5);
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+.header__cart{
+    color: $orange;
+    text-decoration: none;
+    max-width: 4rem;
+    width: 100%;
+    font-size: 2.2rem;
+}
+
+.header__icon{
+    color: $orange;
+    font-size: 1.1rem;
+    padding-right: 0.5rem;
+}
+.header__btn-dropdown{
+    position: relative;
+    display: inline-block;
+}
+.header__dropdown, .header__dropdown-media{
+    position: absolute;
+    background-color: rgb(250, 222, 181);
+    box-shadow: 0px 8px 16px 0px rgba(250, 175, 35, 0.733);
+    min-width: 160px;
+    z-index: 1;
+    right: 0.7rem;
+    top: 3rem;
+
+    display: none;
+}
+
+.header__dropdown a, .header__dropdown-media a{
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+
+    &:hover{
+        background-color: $orange;
+        text-decoration: underline;
+    }
+}
+
+.header__media{
+    display: none;
+    
+}
+.header-display__media{
+    display: grid;
+}

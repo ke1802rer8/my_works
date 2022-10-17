@@ -1,0 +1,61 @@
+<header class="header">
+    <div class="container header__container">
+        <a class="header__img" href="#" >
+            <img src="@img/logo.png" alt="">
+        </a>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Меню</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Акции</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Доставка и оплата</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="header-display__media"> <a class="header__cart  fa fa-shopping-cart " href="#"></a></div>
+       
+        <div class="header-position header-display__media">
+            <a class="header-position__city "><i class="fa fa-dot-circle-o header__icon"></i> г. Днепр, Набережная Заводская 97Н</a>
+            <span class="header-position__time">Время работы: с 10:00 до 22:00</span>
+        </div>
+        <div class="header-contacts header-display__media">
+            <a href="+79511292732" class="header-contacts__link "> <i class="fa fa-mobile-phone header__icon"></i>(951) 129 27 32</a>
+            <a href="#popup" class="header-contacts__feedback popup-link">Заказать обратный звонок</a>
+        </div>
+        
+        <div class="header__media">
+            <a class="header__cart fa fa-shopping-cart" href="#"></a>
+            <div class="header__btn-dropdown">
+                <button onclick="myFunction()" class="btn-bars-media btn-bars__style fa fa-navicon">
+                </button>
+                <div id="dropdown-media" class="header__dropdown-media">
+                    <a href="#">Меню</a>
+                    <a href="#">Акции</a>
+                    <a href="#">О нас</a>
+                    <a href="#">Доставка и оплата</a>
+                    <a href="#">Контакты</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <div id="popup" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#" class="popup__close fa fa-close close-popup"></a>
+                <div class="popup__title">Заказать обратный звонок:</div>
+                <form action="" method="POST" class="popup__form">
+                    <input type="login" placeholder="Ваше имя" name="login" class="popup__input popup__placeholder">
+                    <input type="text" placeholder="Номер телефона" name="phone" class="popup__input popup__placeholder">
+                    <input type="text" placeholder="Удобное время для звонка (с 10:00 до 22:00)" name="text" class="popup__input popup__placeholder">
+                </form>
+                <div class="btn popup__btn">
+                    Перезвоните мне
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</header>

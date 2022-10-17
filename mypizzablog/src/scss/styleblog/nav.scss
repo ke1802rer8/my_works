@@ -1,0 +1,44 @@
+
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav__item{
+    position: relative;
+}
+
+.nav__link{
+    color: $white;
+    padding-right: 4rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    line-height: 1.8;
+
+    transform: color .2s linear;
+
+    &:hover{
+        color: $orange;
+    }
+    
+}
+
+.nav__footer-item{
+    font-size: 1rem;
+    color: $white;
+    cursor: pointer;
+    font-weight: 200;
+    &:hover{
+        text-decoration: underline;
+        
+    }
+}
+.nav__footer{
+    line-height: 2;
+}
+
+.main{
+    display: block;
+}

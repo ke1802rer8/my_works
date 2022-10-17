@@ -1,0 +1,59 @@
+.btn{
+    display: inline-block;
+    background: linear-gradient(180deg, #F3CF54 0%, #F8A511 100%);
+    cursor: pointer;
+    border-radius: 5rem;
+    border: none;
+    
+
+    color: $black;
+    
+
+    &--mb15{
+        margin-bottom: 13rem;
+    }
+
+    &--home{
+        padding: 4rem 13rem;
+        box-shadow: 0px 5px 0px #997300, 0px 0px 44px rgba(251, 189, 0, 0.8);
+        font-size: 3rem;
+    }
+
+    &--card{
+        padding: 2.1rem 8rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    
+    
+}
+
+.btn:hover{
+    background: linear-gradient(180deg, #F8A511 0%, #F3CF54 100%);
+    border-radius: 5rem;
+    color: $white;
+
+    
+}
+.btn--home:hover{
+    
+    box-shadow: 0px 0px 0px #997300, 0px 0px 44px rgba(251, 189, 0, 0.8);
+
+}
+.btn-bars, .btn-bars-media{
+    background-color: inherit;
+    border: none;
+    display: none;
+    
+}
+.btn-bars__style{
+    color: $orange;
+    font-size: 2rem;
+    
+}
+
+.show{
+    display: block;
+}
+
+

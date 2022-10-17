@@ -1,0 +1,86 @@
+.img_fon{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img_fon-one{
+    background-image: url("/img/img_png/group.png");
+}
+
+.img_fon-two{
+    background-image: url("/img/img_png/fon.png");
+    
+}
+
+.img__quality{
+    max-width: 68.1rem;
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+}
+
+.img__clock{
+    max-width: 26.8rem;
+    margin-top: -12.6rem;
+}
+
+.img__cart{
+    max-width: 31.6rem;
+}
+
+.img__bike{
+    max-width: 31rem;
+}
+
+.img__cart, .img__bike{
+    width: 100%;
+    margin-top: -15.5rem;
+}
+
+.img__center{
+    text-align: center;
+}
+
+.img__footer{
+    background-image: url("/img/img_png/footer.png");
+}
+.img__footer-logo{
+    max-width: 15rem;
+    width: 100%;
+    position: relative;
+}
+//слайдер
+
+.image-slider{
+    padding: 30px 0 70px 0;
+    min-width: 0;
+}
+
+
+.image-slider__image{
+    text-align: center;
+}
+.image-slider__image img{
+    max-width: 1056px;
+}
+
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after,
+.review__block .swiper-button-prev::after,
+.review__block .swiper-button-next::after{
+    color: $gray;
+    font-size: 5rem;
+    
+    &:hover{
+        color: $orange;
+    }
+}
+
+
+.image-slider .swiper-button-prev:hover,
+.image-slider .swiper-button-next:hover,
+.review__blockk .swiper-button-prev:hover,
+.review__blockk .swiper-button-nextt:hover{
+    font-size: 10rem;
+    
+}

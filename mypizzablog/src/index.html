@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ru">
+    @@include('html/head.html',{
+    "title":"HelloPizza"
+    })
+    <body>
+        <div class="page">
+            @@include('html/header.html',{})
+            <div class="main">       
+                <section class="first">
+                    <div class="container first-container">
+                        <div class="first_fx">
+                            <h1 class="first__title">
+                                Горячая итальянская пицца с доставкой по Днепру
+                            </h1>
+                            <p class="first__descr">Сделайте первый заказ и получите вторую пиццу <b>со скидкой 50%</b></p>
+                            <button class="btn btn--home btn--mb15" type="button">Заказать</button>
+                            <div class="first__plus">
+                                <div class="first__plus-item">
+                                    <img class="delivery" src="@img/delivery.svg" alt="">
+                                    <p class="first__plus-text">
+                                        Доставим
+                                        в течении 1 часа
+                                    </p>
+                                </div>
+                                <div class="first__plus-item">
+                                    <img class="pizza__img" src="@img/pizza_img.svg" alt="">
+                                    <p class="first__plus-text">
+                                        Большой выбор
+                                        пиццы на любой вкус
+                                    </p>
+                                </div>
+                                <div class="first__plus-item">
+                                    <img class="cheese" src="@img/cheese.svg" alt="">
+                                    <p class="first__plus-text">
+                                        Только свежие 
+                                        ингредиенты
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first-img">
+                            <img src="@img/img_png/potatos.png" alt="" class="first-img__potatos">
+                            <img class="first-img__pizza" src="@img/img_png/pizza.png" alt="">
+                        </div>
+                        
+                    </div>
+                </section>
+                <section class="second">
+                    <img class="second__transition" src="@img/img_png/transition.png" alt="">
+                    <div class="container second-container">
+                        <h1 class="menu__title">Меню</h1>
+                    <nav class="menu__nav">
+                            <ul class="menu__item">
+                                <li class="menu__link active"><a class="menu__list" href="#">Пицца</a></li>
+                                <li class="menu__link"><a class="menu__list" href="potato.html">Картофель</a></li>
+                                <li class="menu__link"><a class="menu__list" href="drink.html">Напитки</a></li>
+                                <li class="menu__link"><a class="menu__list" href="sous.html">Соусы</a></li>
+                            </ul>
+                    </nav>
+                    <div class="menu__products">
+                            <div class="menu__product-card">
+                                <div class="menu_product-img">
+                                    <a class="menu-img" href="#"><img class="menu-img" src="@img/img_png/menu__pizza2.png" alt=""></a>
+                                </div>
+                                <div class="menu_product-info">
+                                    <div class="menu__product-name">Четыре сыра</div>
+                                    <p class="menu__product-title">Сыр блю чиз, сыры чеддер 
+                                        и пармезан, моцарелла,
+                                        соус альфредо</p>
+                                
+                                    <div class="menu__product-main">
+                                        <div class="menu__product-price">490руб</div>
+                                        <div class="menu__product-count">
+                                            <button class="btn menu__product-sign"><div class="sign__size sign__size-pl ">-</div></button>
+                                            <div class="menu__product-int">1</div>
+                                            <button class="btn menu__product-sign"><div class="sign__size">+</div></button>
+                                        </div>
+
+                                    </div>
+                                    <button class="btn btn--card">В корзину</button>
+                                </div>
+                            </div>
+                            <div class="menu__product-card">
+                                <div class="menu_product-img">
+                                    <a class="menu-img" href="#"><img class="menu-img" src="@img/img_png/menu__pizza2.png" alt=""></a>
+                                </div>
+                                <div class="menu_product-info">
+                                    <div class="menu__product-name">Гавайская</div>
+                                    <p class="menu__product-title">Сыр блю чиз, сыры чеддер 
+                                        и пармезан, моцарелла,
+                                        соус альфредо</p>
+                                    <div class="menu__product-main">
+                                        <div class="menu__product-price">510руб</div>
+                                        <div class="menu__product-count">
+                                            <button class="btn menu__product-sign"><div class="sign__size sign__size-pl ">-</div></button>
+                                            <div class="menu__product-int">1</div>
+                                            <button class="btn menu__product-sign"><div class="sign__size">+</div></button>
+                                        </div>
+
+                                    </div>
+                                    <button class="btn btn--card">В корзину</button>
+                                </div>
+                            </div>
+                            <div class="menu__product-card">
+                                <div class="menu_product-img">
+                                    <a class="menu-img" href="#"><img class="menu-img" src="@img/img_png/menu__pizza3.png" alt=""></a>
+                                </div>
+                                <div class="menu_product-info">
+                                    <div class="menu__product-name">Маргарита</div>
+                                    <p class="menu__product-title">Сыр блю чиз, сыры чеддер 
+                                        и пармезан, моцарелла,
+                                        соус альфредо</p>
+                                    <div class="menu__product-main">
+                                        <div class="menu__product-price">710руб</div>
+                                        <div class="menu__product-count">
+                                            <button class="btn menu__product-sign"><div class="sign__size sign__size-pl ">-</div></button>
+                                            <div class="menu__product-int">1</div>
+                                            <button class="btn menu__product-sign"><div class="sign__size">+</div></button>
+                                        </div>
+
+                                    </div>
+                                    <button class="btn btn--card">В корзину</button>
+                                </div>
+                            </div>
+                            <div class="menu__product-card">
+                                <div class="menu_product-img">
+                                    <a class="menu-img" href="#"><img class="menu-img" src="@img/img_png/menu__pizza4.png" alt=""></a>
+                                </div>
+                                <div class="menu_product-info">
+                                    <div class="menu__product-name">Овощная</div>
+                                    <p class="menu__product-title">Сыр блю чиз, сыры чеддер 
+                                        и пармезан, моцарелла,
+                                        соус альфредо</p>
+                                    <div class="menu__product-main">
+                                        <div class="menu__product-price">450руб</div>
+                                        <div class="menu__product-count">
+                                            <button class="btn menu__product-sign"><div class="sign__size sign__size-pl ">-</div></button>
+                                            <div class="menu__product-int">1</div>
+                                            <button class="btn menu__product-sign"><div class="sign__size">+</div></button>
+                                        </div>
+
+                                    </div>
+                                    <button class="btn btn--card">В корзину</button>
+                                </div>
+                            </div>
+                            <div class="menu__product-card">
+                                <div class="menu_product-img">
+                                    <a class="menu-img" href="#"><img class="menu-img" src="@img/img_png/menu__pizza5.png" alt=""></a>
+                                </div>
+                                <div class="menu_product-info">
+                                    <div class="menu__product-name">Мясная</div>
+                                    <p class="menu__product-title">Сыр блю чиз, сыры чеддер 
+                                        и пармезан, моцарелла,
+                                        соус альфредо</p>
+                                    <div class="menu__product-main">
+                                        <div class="menu__product-price">610руб</div>
+                                        <div class="menu__product-count">
+                                            <button class="btn menu__product-sign"><div class="sign__size sign__size-pl ">-</div></button>
+                                            <div class="menu__product-int">1</div>
+                                            <button class="btn menu__product-sign"><div class="sign__size">+</div></button>
+                                        </div>
+
+                                    </div>
+                                    <button class="btn btn--card">В корзину</button>
+                                </div>
+                            </div>
+                            <div class="menu__product-card">
+                                <div class="menu_product-img">
+                                    <a class="menu-img" href="#"><img class="menu-img" src="@img/img_png/menu__pizza6.png" alt=""></a>
+                                </div>
+                                <div class="menu_product-info">
+                                    <div class="menu__product-name">Диабло</div>
+                                    <p class="menu__product-title">Сыр блю чиз, сыры чеддер 
+                                        и пармезан, моцарелла,
+                                        соус альфредо</p>
+                                    <div class="menu__product-main">
+                                        <div class="menu__product-price">510руб</div>
+                                        <div class="menu__product-count">
+                                            <button class="btn menu__product-sign"><div class="sign__size sign__size-pl ">-</div></button>
+                                            <div class="menu__product-int">1</div>
+                                            <button class="btn menu__product-sign"><div class="sign__size">+</div></button>
+                                        </div>
+
+                                    </div>
+                                    <button class="btn btn--card">В корзину</button>
+                                </div>
+                            </div>
+                            <div class="menu__product-card">
+                                <div class="menu_product-img">
+                                    <a class="menu-img" href="#"><img class="menu-img" src="@img/img_png/menu__pizza7.png" alt=""></a>
+                                </div>
+                                <div class="menu_product-info">
+                                    <div class="menu__product-name">Капричоза</div>
+                                    <p class="menu__product-title">Сыр блю чиз, сыры чеддер 
+                                        и пармезан, моцарелла,
+                                        соус альфредо</p>
+                                    <div class="menu__product-main">
+                                        <div class="menu__product-price">550руб</div>
+                                        <div class="menu__product-count">
+                                            <button class="btn menu__product-sign"><div class="sign__size sign__size-pl ">-</div></button>
+                                            <div class="menu__product-int">1</div>
+                                            <button class="btn menu__product-sign"><div class="sign__size">+</div></button>
+                                        </div>
+
+                                    </div>
+                                    <button class="btn btn--card">В корзину</button>
+                                </div>
+                            </div>
+                            
+                            <div class="menu__product-card">
+                                <div class="menu_product-img">
+                                    <a class="menu-img" href="#"><img class="menu-img" src="@img/img_png/menu__pizza8.png" alt=""></a>
+                                </div>
+                                <div class="menu_product-info">
+                                    <div class="menu__product-name">Поло</div>
+                                    <p class="menu__product-title">Сыр блю чиз, сыры чеддер 
+                                        и пармезан, моцарелла,
+                                        соус альфредо</p>
+                                    <div class="menu__product-main">
+                                        <div class="menu__product-price">450руб</div>
+                                        <div class="menu__product-count">
+                                            <button class="btn menu__product-sign"><div class="sign__size sign__size-pl ">-</div></button>
+                                            <div class="menu__product-int">1</div>
+                                            <button class="btn menu__product-sign"><div class="sign__size">+</div></button>
+                                        </div>
+
+                                    </div>
+                                    <button class="btn btn--card">В корзину</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <img class="second__transition" src="@img/img_png/transition_2.png" alt="">
+                    <div class="img_fon img_fon-one second ">
+                        <div class="container second__display second__pdb">
+                            <div class=" second__pdt">
+                                <h1 class="second__title">
+                                    Акции
+                                </h1>
+                                <p class="text">Закажите пиццу и получите вторую пиццу <b>со скидкой 50%</b></p>
+                            </div>
+                            <div class="first-img">
+                                <img src="@img/img_png/potatos_2.png" alt="" class="first-img__potatos2">
+                                <img class="first-img__pizza2 first-img__pizza-mrr second__pdt" src="@img/img_png/pizza_2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <img class="second__transition second" src="@img/img_png/transition.png" alt="">
+                    <div class="container second__jc second-mrb">
+                        <div class="container__Quality">
+                            <h1 class="text__NameQuality">
+                                Гарантия вкуса и качества
+                            </h1>
+                            <div class="li__quality">
+                                <div class="li__list second__display">
+                                    <img class="li__img li__img-one" src="@img/img_png/one.png" alt="">
+                                    <div class="text__quality">
+                                        <div class="text__quality-header">
+                                            Оригинальные рецепты
+                                        </div>
+                                        <div class="text__quality-description">
+                                            Мы собрали оригинальные рецепты итальянских пиццерий, чтобы вы наслаждались незабываемым вкусом
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="li__list second__display">
+                                    <img class="li__img li__img-tt" src="@img/img_png/two.png" alt="">
+                                    <div class="text__quality">
+                                        <div class="text__quality-header">
+                                            Сертификаты качества
+                                        </div>
+                                        <div class="text__quality-description">
+                                            Вы можете ознакомиться со всеми лицензиями и сертификатами качества соответствия нашего продукта
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="li__list second__display">
+                                    <img class="li__img li__img-tt" src="@img/img_png/three.png" alt="">
+                                    <div class="text__quality">
+                                        <div class="text__quality-header">
+                                            Большой ассортимент
+                                        </div>
+                                        <div class="text__quality-description">
+                                            У нас вы найдете пиццу на любой вкус - для любителей простых вкусов и настоящих гурманов
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="img__quality" src="@img/img_png/quality.png" alt="">
+                    </div>
+                    <img class="second__transition" src="@img/img_png/transition_2.png" alt="">
+                    <div class="img_fon img_fon-two second">
+                        <div class="container second__pdb second__pdt">
+                            <h1 class="second__title">
+                                Доставка и оплата
+                            </h1>
+                            <div class="menu__products menu__delivery-pdt">
+                                <div class="menu__delivery">
+                                    <p class="img__center"><img class="img__clock" src="@img/img_png/clock.png"></img></p>
+                                    <div class="menu_product-info menu__delivery-pd">
+                                        <div class="menu__product-name">Время</div>
+                                        <p class="menu__product-title">Доставка осуществляется 
+                                            с 10:00 до 22:00</p>
+                                    </div>
+                                </div>
+                                <div class="menu__delivery">
+                                    <p class="img__center"><img class="img__bike" src="@img/img_png/bike.png"></img></p>
+                                    <div class="menu_product-info menu__delivery-pd">
+                                        <div class="menu__product-name">Стоимость</div>
+                                        <p class="menu__product-title">Доставка по городу бесплатно при заказе от 200 грн</p>
+                                    </div>
+                                </div>
+                                <div class="menu__delivery">
+                                    <p class="img__center"><img class="img__cart" src="@img/img_png/card.png"></img></p>
+                                    <div class="menu_product-info menu__delivery-pd">
+                                        <div class="menu__product-name">Оплата</div>
+                                        <p class="menu__product-title">Оплата наличными или картой курьеру или онлайн на сайте </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <img class="second__transition second" src="@img/img_png/transition.png" alt="">
+                    <div class="container second-mrb">
+                        <div class="container__Quality">
+                            <h1 class="text__NameQuality">
+                                Отзывы
+                            </h1>
+                            <!-- Для маленького экрана -->
+                            <div class="review__block image-slider  swiper review__nb ">
+                                <div class="swiper-wrapper">
+                                    <div class="review-slide swiper-slide">
+                                        <div class="review  ">                   
+                                            <div class="review__display">
+                                                <div class="review__name">
+                                                    Ирина
+                                                </div>
+                                                <div class="review__stars">
+            
+                                                </div>
+                                            </div>
+                                            <div class="review__text">
+                                                Лучшая пицца в городе! Иногда делаю заказ домой, иногда ходим 
+        в пиццерию. Персонал приветливый и всегда быстро обслуживает. Спасибо!
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="review-slide swiper-slide">
+                                        <div class="review ">                   
+                                            <div class="review__display">
+                                                <div class="review__name">
+                                                    Ирина
+                                                </div>
+                                                <div class="review__stars">
+            
+                                                </div>
+                                            </div>
+                                            <div class="review__text">
+                                                Лучшая пицца в городе! Иногда делаю заказ домой, иногда ходим 
+        в пиццерию. Персонал приветливый и всегда быстро обслуживает. Спасибо!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-prev media-display"></div>
+                                <div class="swiper-button-next media-display"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <!-- Для большого экрана -->
+                            <div class="review__block swiper review__bn">
+                                        <div class="review swiper-slide ">                   
+                                            <div class="review__display">
+                                                <div class="review__name">
+                                                    Ирина
+                                                </div>
+                                                <div class="review__stars">
+            
+                                                </div>
+                                            </div>
+                                            <div class="review__text">
+                                                Лучшая пицца в городе! Иногда делаю заказ домой, иногда ходим 
+        в пиццерию. Персонал приветливый и всегда быстро обслуживает. Спасибо!
+                                            </div>
+                                        </div>
+                                    
+                                    
+                                        <div class="review swiper-slide">                   
+                                            <div class="review__display">
+                                                <div class="review__name">
+                                                    Ирина
+                                                </div>
+                                                <div class="review__stars">
+            
+                                                </div>
+                                            </div>
+                                            <div class="review__text">
+                                                Лучшая пицца в городе! Иногда делаю заказ домой, иногда ходим 
+        в пиццерию. Персонал приветливый и всегда быстро обслуживает. Спасибо!
+                                            </div>
+                                        </div>
+                                        
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            
+                            <h1 class="text__NameQuality">
+                                Контакты
+                            </h1>
+                            <div class="review__block">
+                                <div class="text__contacts">
+                                    <div class="text__contacts-name">
+                                        Адрес
+                                    </div>
+                                    <div class="text__contacts-description">
+                                        г. Днепр
+                                        <br>Набережная Заводская 97Н</br>
+                                    </div>
+                                </div>
+                                <div class="text__contacts">
+                                    <div class="text__contacts-name">
+                                        Режим работы
+                                    </div>
+                                    <div class="text__contacts-description">
+                                        Ежедневно с 10:00 до 22:00
+                                    </div>
+                                </div>
+                                <div class="text__contacts">
+                                    <div class="text__contacts-name">
+                                        Телефон
+                                    </div>
+                                    <div class="text__contacts-description">
+                                        (098) 098 94 38
+                                    </div>
+                                </div>
+                                <div class="text__contacts">
+                                    <div class="text__contacts-name">
+                                        Инстаграм
+                                    </div>
+                                    <div class="text__contacts-description">
+                                        @hello.pizza.dp
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="text__contacts-name media-display">
+                                Наше заведение
+                            </div>
+                            <div class="image-slider swiper media-display">
+                                <div class="image-slider__wrapper swiper-wrapper">
+                                    <div class="image-slider__slide swiper-slide">
+                                        <div class="image-slider__image">
+                                            <img class="swiper-img" src="@img/img_png/holl_pizza.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="image-slider__slide swiper-slide">
+                                        <div class="image-slider__image">
+                                            <img class="swiper-img" src="@img/img_png/holl_pizza.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="image-slider__slide swiper-slide">
+                                        <div class="image-slider__image">
+                                            <img class="swiper-img" src="@img/img_png/holl_pizza.png" alt="">
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <img class="second__transition" src="@img/img_png/transition_2.png" alt="">
+                    @@include('html/footer.html',{})
+                </section>
+                
+            </div> 
+        </div>
+        <!--JS--> 
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/d4346b87e7.js" crossorigin="anonymous"></script>    
+        <script type="module">
+            import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+            import Swiperr from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'  
+        </script>
+    <script src="js/app.min.js"></script>
+    </body>
+</html>

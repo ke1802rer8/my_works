@@ -1,0 +1,13 @@
+.basket{
+    background-image: url('/img/img_png/basket-header.png');
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 10px;
+    right: auto;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    display: none;
+}

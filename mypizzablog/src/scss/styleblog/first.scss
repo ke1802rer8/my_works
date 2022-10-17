@@ -1,0 +1,125 @@
+.first{
+ 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("/img/img_png/main_img.png");
+    
+}
+
+.first-container{
+    display: flex;
+    padding-top: 12.6rem;
+    padding-bottom: 12.6rem;
+}
+
+.first_fx{
+    padding-top: 19.2rem;
+}
+
+.first__title{
+    color: $white;
+    font-family: inherit;
+    font-size: 5.7rem;
+    font-weight: 800;
+    max-width: 83.9rem;
+    line-height: 1.3;
+
+    margin-bottom: 7rem;
+}
+
+.first__descr{
+    font-size: 2.4rem;
+    color: rgba($white, 0.8);
+
+    b{
+        font-size: 2.7rem;
+        color: $white;
+    }
+    margin-bottom: 7rem;
+   
+}
+
+.first-img{
+    position: absolute;
+    display: block;
+    right: 0;
+}
+.first-img__pizza{
+    width: 100%;
+    height: auto;
+    max-width: 108.9rem;
+    display: block;
+
+    padding-right: 6rem;
+}
+.first-img__pizza2{
+    width: 100%;
+    height: auto;
+    max-width: 73.0rem;
+    display: block;
+
+    padding-right: 6rem;
+}
+.first-img__potatos{
+    position: absolute;
+    display: block;
+    top: -2%;
+    right: 0;
+    padding-right: 1.9rem;
+
+    width: 100%;
+    height: auto;
+    max-width: 22.9rem;
+      
+}
+.first-img__potatos2{
+    position: absolute;
+    display: block;
+    top: -17%;
+    right: 0;
+    padding-right: 9.9rem;
+
+    width: 100%;
+    height: auto;
+    max-width: 22.9rem;
+      
+}
+
+
+.first__plus{
+    display: flex;
+    max-width: 75.7rem;
+    justify-content: space-between;
+}
+
+.first__plus-item{
+    display: flex;
+
+    .delivery{
+        max-width: 5.5rem;
+        height: 3.3rem;
+        width: 100%;
+    }
+
+    .pizza__img{
+        max-width: 3.1rem;
+        height: 3.3rem;
+        width: 100%;
+    }
+
+    .cheese{
+        max-width: 4.1rem;
+        height: 3.3rem;
+        width: 100%;
+    }
+}
+
+.first__plus-text{
+    font-size: 1.8rem;
+    padding-left: 2rem;
+}
+
+.first-img__pizza-mrr{
+    margin-right: 260px;
+}
+
